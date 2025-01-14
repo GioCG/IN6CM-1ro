@@ -1,0 +1,46 @@
+*{
+    margin:0;
+}
+a{
+   text-decoration: none;
+   font-size:18px;
+   margin: 50px 40px 50px 0px;
+   color:#ffffff;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('/assets/image/cine.jpg');
+    background-size:  cover; 
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+article{
+    background: #ffffff;
+    border: 1px solid #999;
+    margin-bottom: 15px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+article footer{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.s {
+    margin: cover;
+    padding-top: 400px;
+    padding-bottom: 0; 
+    width: cover;
+    text-align: center;
+}
+
+.b{
+    margin: cover;
+    width: cover;
+    text-align: center;
+}

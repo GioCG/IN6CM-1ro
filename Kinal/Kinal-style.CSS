@@ -53,7 +53,6 @@ body{
 .Menu li{
     color: #102141;
     list-style: none;
-    padding: 5px;
     font: bold 14px verdana;
     display: inline-block;
 }
@@ -97,9 +96,10 @@ body{
     list-style: none;
 }
 
-.s{
+.s {
     margin: cover;
-    padding: 500px 0px;
+    padding-top: 800px;
+    padding-bottom: 0; 
     width: cover;
     text-align: center;
 }
@@ -128,13 +128,6 @@ body{
     margin: 20px 0;
 }
 
-.c blockquote{
-    border: 1px solid black;
-    padding: 35px;
-    background: #ffffff;
-    margin-bottom: 20px;
-    }
-
 article{
     background: #ffffff;
     border: 1px solid #999;
@@ -143,17 +136,6 @@ article{
     padding: 0;
     border: none;
 }
-
-time{
-    color: #0D47A1 ;
-}
-
-article footer{
-    text-align: right;
-    margin-top: 20px;
-}
-
-
 
 .tableconteiner{
     display: flex;
@@ -182,4 +164,19 @@ footer{
    color:#ffffff;
    font-size: 15px;
    text-align: center;
+}
+.bg-custom{
+    background: rgb(22, 35, 63);
+    height: 150px;  
+}
+.navbar{
+    transition: top 0.25s;
+    padding: 0;
+}
+.navbar .navbar-brand img{
+    width: auto;
+    height: 50px;
+}
+.text-bg-custom{
+    color: white;
 }

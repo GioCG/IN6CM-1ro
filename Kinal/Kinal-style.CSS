@@ -1,0 +1,185 @@
+*{
+     margin:0;
+}
+a{
+    text-decoration: none;
+    font-size:18px;
+    margin: 50px 40px 50px 0px;
+    color:#ffffff;
+}
+
+.Inicio{
+    color: rgba(255, 121, 32, 0.942);
+}
+h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+h1{
+    color: #0D47A1 ;
+    font-size:60px;
+}
+
+header,section,footer,nav,article{
+    color: #0D47A1 ;
+    font-size:30px;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('/assets/image/Fondo.jpg');
+    background-size:  cover; 
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.agrupar{
+    width: 900px;
+    background:#102141
+}
+
+.cabecera{
+    background-color: #102141;
+    text-align: left;
+}
+.Menu{
+    text-align:center;
+    text-decoration: none;
+}
+
+.Menu li{
+    color: #102141;
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+}
+.texto p{
+    color: #0D47A1;
+    text-decoration: none;
+    text-align: center;
+    font-size:30px;
+    margin: 50px 40px 50px 0px;
+    font-family: "Mulish", sans-serif;
+}
+.texto a{
+    color: #0D47A1;
+    text-decoration: none;
+    text-align: center;
+    font-size:18px;
+    margin: 50px 40px 50px 0px;
+    font-family: "Mulish", sans-serif;
+}
+.Descubre{
+    font-weight: bold;
+    font-size:25px;
+    margin: 60px 0px 90px 0px; 
+    color: #0D47A1;
+}
+.Descubre1{
+    font-size:25px;
+    color: #4b83d8;
+    text-align: end;
+    font-weight: bold;
+}
+.Descubre2{
+    font-size:25px;
+    color: #ffffff;
+    text-align: end;
+    font-weight: bold;
+}
+.s li{
+    color: #102141;
+    font-size:18px;
+    list-style: none;
+}
+
+.s{
+    margin: cover;
+    padding: 500px 0px;
+    width: cover;
+    text-align: center;
+}
+.q{
+    margin: cover;
+    width: cover;
+    text-align: rigth;
+    background: rgb(22, 35, 63);
+}
+.imag{
+    text-align: left;
+}
+.imag li{
+    text-align: end;
+}
+.q li{
+    text-decoration: none;
+    list-style: none;
+}
+.q h1{
+    text-align: center;
+}
+.c{
+    width: 300px;
+    float: left;
+    margin: 20px 0;
+}
+
+.c blockquote{
+    border: 1px solid black;
+    padding: 35px;
+    background: #ffffff;
+    margin-bottom: 20px;
+    }
+
+article{
+    background: #ffffff;
+    border: 1px solid #999;
+    margin-bottom: 15px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+time{
+    color: #0D47A1 ;
+}
+
+article footer{
+    text-align: right;
+    margin-top: 20px;
+}
+
+
+
+.tableconteiner{
+    display: flex;
+    justify-content: center;
+}
+
+.n li{
+    color: #ffffff;
+    text-align: center;
+}
+
+.n image{
+    position: relative;
+
+}
+
+.n a {
+    color: #ffffff;
+    font-size: 25px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+footer{
+   background: rgb(22, 35, 63);
+   color:#ffffff;
+   font-size: 15px;
+   text-align: center;
+}

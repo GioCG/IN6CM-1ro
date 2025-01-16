@@ -91,14 +91,13 @@ body{
     font-weight: bold;
 }
 .s li{
-    color: #102141;
     font-size:18px;
     list-style: none;
 }
 
 .s {
     margin: cover;
-    padding-top: 800px;
+    padding-top: 500px;
     padding-bottom: 0; 
     width: cover;
     text-align: center;

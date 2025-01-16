@@ -17,8 +17,18 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
-article{
-    background: #ffffff;
+
+.a article{
+    background: #000000;
+    border: 1px solid #999;
+    margin-bottom: 15px;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.s article{
+    background-color: #00000080;
     border: 1px solid #999;
     margin-bottom: 15px;
     margin: 0;
@@ -33,12 +43,15 @@ article footer{
 
 .s {
     margin: cover;
-    padding-top: 300px;
     padding-bottom: 0; 
     width: cover;
     text-align: center;
 }
 
+.s li{
+    font-size:18px;
+    list-style: none;
+}
 .b{
     margin: cover;
     width: cover;
@@ -58,5 +71,66 @@ article footer{
     display: flex;
     align-items: cover; 
     width: 100%; 
-    height: 900px; 
+    height: 800px; 
   }
+
+  .img-centered {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+.header,section,nav,article{
+    color: #ffffff ;
+    list-style: none;
+    font-size:30px;
+}
+.footer{
+    color: #ffffff ;
+    text-align: center;
+    background-color: black;
+    font-size:30px;
+}
+.style-div {
+    background-color: #092172; 
+    border: 1px solid #ccc; 
+    padding: 15px;
+    margin: 10px; 
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.movie-card {
+    background-color: #092172;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+.movie-card:hover {
+    transform: scale(1.05);
+}
+.movie-card img {
+    width: 100%;
+    height: 75%;
+}
+.movie-card .content {
+    padding: 15px;
+}
+.movie-card h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #ffffff;
+}
+.movie-card p {
+    margin: 10px 0 0;
+    font-size: 14px;
+}

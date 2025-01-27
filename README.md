@@ -1,0 +1,1 @@
+La pagina de kinal me parece bien tal y como esta solo cambiarle un poco el diseño de la publicidad para antiguos estudiantes y un navbar donde se pueda ir rapida mente a los demas apartados de la pagina web

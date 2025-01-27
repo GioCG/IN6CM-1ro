@@ -7,7 +7,6 @@
 }
 
 
-
 header,section,footer,nav,article{
    color: #000000 ;
    font-size:30px;
@@ -16,7 +15,7 @@ header,section,footer,nav,article{
 body{
    margin: 0;
    font-family: Arial, sans-serif;
-   background-image: url('/assets/image/libro.webp');
+   background-image: url('https://www.educaciontrespuntocero.com/wp-content/uploads/2021/03/libros-sobre-el-placer-de-leer.jpg');
    background-size:  cover; 
    background-position: center;
    background-attachment: fixed;
@@ -27,5 +26,8 @@ body{
  text-align: center;
  background-color: black;
  font-size:30px;
+}
+.wasa{
+   color: #ffffff;
 }
  
